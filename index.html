@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suzhou Tour Guide</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Karla:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════════════
+       NAVIGATION
+       ═══════════════════════════ -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        &#9776;
+      </button>
+      <a href="index.html" class="nav-logo">Suzhou Tour Guide</a>
+      <div class="nav-spacer"></div>
+    </div>
+  </nav>
+
+  <!-- Full-screen menu overlay -->
+  <div class="nav-overlay" id="navOverlay">
+    <nav class="nav-overlay-links">
+      <a href="index.html"       class="nav-overlay-link">Home</a>
+      <a href="tour-guide.html"  class="nav-overlay-link">Tour Guide</a>
+      <a href="garden.html?id=humble-administrator" class="nav-overlay-link">Gardens</a>
+    </nav>
+  </div>
+
+
+  <!-- ═══════════════════════════
+       HERO SECTION
+       ═══════════════════════════ -->
+  <section class="hero hero--tall">
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1773300768055-a1e209f09db0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920"
+        alt="Circular moon gate in a traditional Chinese garden"
+      >
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-text">
+          <h1 class="hero-title">Where nature becomes art</h1>
+          <p class="hero-subtitle">
+            Experience the timeless beauty of Suzhou's classical gardens,
+            where every stone, window, and pavilion tells a story of harmony
+            and contemplation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════
+       FEATURED GARDENS
+       ═══════════════════════════ -->
+  <section class="section">
+    <div class="container">
+      <p class="section-label fade-in">Featured Gardens</p>
+
+      <div class="cards">
+
+        <!-- Card 1 -->
+        <a href="garden.html?id=humble-administrator" class="card fade-in">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1775486315462-62ea39e31818?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+              alt="Humble Administrator's Garden"
+              class="card-img"
+            >
+          </div>
+          <h2 class="card-title">Humble Administrator's Garden</h2>
+          <p class="card-desc">
+            The largest and most renowned of Suzhou's classical gardens,
+            a masterpiece of Ming dynasty landscape design.
+          </p>
+          <span class="card-cta">Learn More &rarr;</span>
+        </a>
+
+        <!-- Card 2 -->
+        <a href="garden.html?id=lingering-garden" class="card fade-in">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1773735968697-a23f930e0228?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+              alt="Lingering Garden"
+              class="card-img"
+            >
+          </div>
+          <h2 class="card-title">Lingering Garden</h2>
+          <p class="card-desc">
+            Famous for its artistic arrangement of rocks and refined
+            architectural details that frame nature perfectly.
+          </p>
+          <span class="card-cta">Learn More &rarr;</span>
+        </a>
+
+        <!-- Card 3 -->
+        <a href="garden.html?id=master-of-nets" class="card fade-in">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1700224732905-64673adc26e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800"
+              alt="Master of the Nets Garden"
+              class="card-img"
+            >
+          </div>
+          <h2 class="card-title">Master of the Nets Garden</h2>
+          <p class="card-desc">
+            An intimate garden showcasing the scholar's ideal retreat,
+            where architecture and nature achieve perfect balance.
+          </p>
+          <span class="card-cta">Learn More &rarr;</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════
+       COLUMN ARTICLES
+       ═══════════════════════════ -->
+  <section class="section section--white">
+    <div class="container container--narrow">
+      <p class="section-label fade-in">Column Articles</p>
+
+      <div class="article-list">
+
+        <a href="article.html?id=aesthetic-windows" class="article-item fade-in">
+          <div class="article-item-inner">
+            <h3 class="article-item-title">Aesthetic Value of Windows</h3>
+          </div>
+        </a>
+
+        <a href="article.html?id=rock-arrangement" class="article-item fade-in">
+          <div class="article-item-inner">
+            <h3 class="article-item-title">The Art of Rock Arrangement</h3>
+          </div>
+        </a>
+
+        <a href="article.html?id=borrowed-scenery" class="article-item fade-in">
+          <div class="article-item-inner">
+            <h3 class="article-item-title">Borrowed Scenery in Garden Design</h3>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════
+       FOOTER
+       ═══════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+
+        <div class="footer-links">
+          <a href="#" class="footer-link">About</a>
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Contact</a>
+        </div>
+
+        <!-- Instagram icon (inline SVG — no external library needed) -->
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+           class="footer-social" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+        </a>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>Preserving the beauty and heritage of Suzhou classical gardens</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
