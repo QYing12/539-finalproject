@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lingering Garden — Suzhou Tour Guide</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Karla:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav" aria-label="Main navigation">
+      <div class="nav-inner">
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="navOverlay">
+          &#9776;
+        </button>
+        <a href="index.html" class="nav-logo">Suzhou Tour Guide</a>
+        <div class="nav-spacer"></div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="nav-overlay" id="navOverlay">
+    <nav class="nav-overlay-links" aria-label="Mobile menu">
+      <a href="index.html" class="nav-overlay-link">Home Page</a>
+      <a href="garden-photo-gallery.html" class="nav-overlay-link">Garden Photo Gallery</a>
+      <a href="food-gallery.html" class="nav-overlay-link">Food Gallery</a>
+    </nav>
+  </div>
+
+  <main>
+    <section class="hero hero--mid">
+      <div class="hero-bg">
+        <img
+          src="Images/liuyuan.jpg"
+          alt="Lingering Garden"
+        >
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="container">
+          <div class="hero-text">
+            <p class="hero-kicker">Classical Garden</p>
+            <h1 class="hero-title">Lingering Garden</h1>
+            <p class="hero-subtitle hero-subtitle--serif">留园</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container container--narrow">
+        <h2 class="intro-title fade-in">
+          A masterwork of spatial composition and artistic rock arrangement
+        </h2>
+
+        <div class="intro-block fade-in">
+          <p class="intro-block-label">History</p>
+          <p class="intro-text">
+            Created during the Ming Dynasty in 1593, the Lingering Garden
+            underwent major renovation in the Qing Dynasty. It represents the
+            peak of Chinese private garden art.
+          </p>
+        </div>
+
+        <div class="intro-block fade-in">
+          <p class="intro-block-label">Design Philosophy</p>
+          <p class="intro-text">
+            The garden demonstrates the principle of "small spaces containing
+            great scenery." Through careful arrangement of architecture, rocks,
+            water, and plants, it creates a sense of infinite depth within
+            limited space.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gd-section">
+      <div class="gd-grid container">
+        <div class="gd-img-wrap fade-in">
+          <img
+            src="Images/liuyuan/liuyuan1.jpeg"
+            alt="Rock compositions in Lingering Garden"
+            class="gd-img"
+          >
+        </div>
+        <div class="gd-text-wrap fade-in">
+          <h3 class="gd-title">Rock Compositions</h3>
+          <p class="gd-text">
+            The garden houses some of China's most prized rocks, including the
+            6.5-meter Crown Cloud Peak. These Taihu stones are valued for their
+            wrinkled, perforated, and slender forms.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gd-section section--white">
+      <div class="gd-grid gd-grid--reverse container">
+        <div class="gd-img-wrap fade-in">
+          <img
+            src="Images/liuyuan/liuyuan2.jpeg"
+            alt="Covered walkways in Lingering Garden"
+            class="gd-img"
+          >
+        </div>
+        <div class="gd-text-wrap fade-in">
+          <h3 class="gd-title">Covered Walkways</h3>
+          <p class="gd-text">
+            Over 700 meters of covered corridors connect different garden areas
+            while framing views through latticed windows. Each window opening
+            presents a living painting.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gd-section">
+      <div class="gd-grid container">
+        <div class="gd-img-wrap fade-in">
+          <img
+            src="Images/liuyuan/liuyuan3.jpeg"
+            alt="Architectural details in Lingering Garden"
+            class="gd-img"
+          >
+        </div>
+        <div class="gd-text-wrap fade-in">
+          <h3 class="gd-title">Architectural Details</h3>
+          <p class="gd-text">
+            Halls feature exquisite woodwork, carved doors, and calligraphic
+            inscriptions. The interplay of interior and exterior spaces creates a
+            rhythm of revelation and concealment.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="garden-photo-gallery.html" class="footer-link">Gallery</a>
+          <a href="food-gallery.html" class="footer-link">Food</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Preserving the beauty and heritage of Suzhou classical gardens</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

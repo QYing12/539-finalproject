@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Gallery — Suzhou Tour Guide</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Karla:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+
+</head>
+<body>
+  <header>
+    <nav class="nav" aria-label="Main navigation">
+      <div class="nav-inner">
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="navOverlay">
+          &#9776;
+        </button>
+        <a href="index.html" class="nav-logo">Suzhou Tour Guide</a>
+        <div class="nav-spacer"></div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="nav-overlay" id="navOverlay">
+    <nav class="nav-overlay-links" aria-label="Mobile menu">
+      <a href="index.html" class="nav-overlay-link">Home Page</a>
+      <a href="garden-photo-gallery.html" class="nav-overlay-link">Garden Photo Gallery</a>
+      <a href="food-gallery.html" class="nav-overlay-link">Food Gallery</a>
+    </nav>
+  </div>
+
+  <main>
+    <section class="gallery-intro">
+      <h1 class="gallery-title">Food Gallery</h1>
+      <p class="gallery-sub">
+        Signature dishes, noodles, sweets and drinks from Suzhou.
+      </p>
+    </section>
+
+    <section class="gallery-wrap">
+      <div class="photo-grid">
+        <div class="food-item">
+          <img src="Images/suzhou food/dongpo pork.jpg" alt="Dongpo Pork">
+          <p class="food-caption">
+            <strong>Dongpo Pork</strong>
+            Slow-braised pork belly in a sweet soy glaze.
+          </p>
+        </div>
+
+        <div class="food-item">
+          <img src="Images/suzhou food/suzhou noodles copy.jpg" alt="Suzhou Noodles">
+          <p class="food-caption">
+            <strong>Suzhou Noodles</strong>
+            Thin noodles in a light, fragrant broth.
+          </p>
+        </div>
+
+        <div class="food-item">
+          <img src="Images/suzhou food/suzhou red soup noodles.jpg" alt="Red Soup Noodles">
+          <p class="food-caption">
+            <strong>Red Soup Noodles</strong>
+            Rich, deep-red broth with a hint of sweetness.
+          </p>
+        </div>
+
+        <div class="food-item">
+          <img src="Images/suzhou food/suzhou hotpot.jpg" alt="Suzhou Hotpot">
+          <p class="food-caption">
+            <strong>Suzhou Hotpot</strong>
+            A mild, savory hotpot featuring local river fish.
+          </p>
+        </div>
+
+        <div class="food-item">
+          <img src="Images/suzhou food/hotpot.jpg" alt="Spicy Hotpot">
+          <p class="food-caption">
+            <strong>Spicy Hotpot</strong>
+            A bolder take on hotpot with layered spice and aromatics.
+          </p>
+        </div>
+        <div class="food-item">
+          <img src="Images/suzhou food/Plumblossom cake.png" alt="Plum Blossom Cake">
+          <p class="food-caption">
+            <strong>Plum Blossom Cake</strong>
+            A crisp pastry shaped like a blossoming plum flower.
+          </p>
+        </div>
+        <div class="food-item">
+          <img src="Images/suzhou food/suzhou cake.png" alt="Suzhou Cake">
+          <p class="food-caption">
+            <strong>Suzhou Cake</strong>
+            A soft, lightly sweet rice cake — a classic teahouse snack.
+          </p>
+        </div>
+        <div class="food-item">
+          <img src="Images/suzhou food/taromochi.png" alt="Taro Mochi">
+          <p class="food-caption">
+            <strong>Taro Mochi</strong>
+            Chewy rice dough filled with smooth taro paste.
+          </p>
+        </div>
+        <div class="food-item">
+          <img src="Images/suzhou food/bamboo milk tea.jpg" alt="Bamboo Milk Tea">
+          <p class="food-caption">
+            <strong>Bamboo Milk Tea</strong>
+            Silky milk tea served inside a fresh bamboo cup.
+          </p>
+        </div>
+        <div class="food-item">
+          <img src="Images/suzhou food/flower drink.jpg" alt="Floral Drink">
+          <p class="food-caption">
+            <strong>Floral Drink</strong>
+            A fragrant tea-style drink brewed with edible blossoms.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="garden-photo-gallery.html" class="footer-link">Gallery</a>
+          <a href="food-gallery.html" class="footer-link">Food</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Preserving the beauty and heritage of Suzhou classical gardens</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+.gallery-intro {
+  padding: 4rem 1.5rem 2rem;
+  text-align: center;
+}
+
+.gallery-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: #2B2B2B;
+}
+
+.gallery-sub {
+  font-family: 'Karla', sans-serif;
+  font-size: 1rem;
+  color: #2f2f2f;
+  max-width: 36rem;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.gallery-wrap {
+  padding: 2rem 1.5rem 6rem;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .photo-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .photo-grid { grid-template-columns: 1fr; }
+}
+
+.photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.photo:hover {
+  border-color: #2B2B2B;
+}
+
+.food-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-item img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.food-item img:hover {
+  border-color: #2B2B2B;
+}
+
+.food-caption {
+  margin-top: 0.75rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 0.95rem;
+  color: #2B2B2B;
+  line-height: 1.5;
+}
+
+.food-caption strong {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 0.25rem;
+}

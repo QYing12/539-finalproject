@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humble Administrator's Garden — Suzhou Tour Guide</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Karla:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="nav" aria-label="Main navigation">
+      <div class="nav-inner">
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="navOverlay">
+          &#9776;
+        </button>
+        <a href="index.html" class="nav-logo">Suzhou Tour Guide</a>
+        <div class="nav-spacer"></div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="nav-overlay" id="navOverlay">
+    <nav class="nav-overlay-links" aria-label="Mobile menu">
+      <a href="index.html" class="nav-overlay-link">Home Page</a>
+      <a href="garden-photo-gallery.html" class="nav-overlay-link">Garden Photo Gallery</a>
+      <a href="food-gallery.html" class="nav-overlay-link">Food Gallery</a>
+    </nav>
+  </div>
+
+  <main>
+    <section class="hero hero--mid">
+      <div class="hero-bg">
+        <img
+          src="Images/zhuozhengyuan.jpg"
+          alt="Humble Administrator's Garden"
+        >
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="container">
+          <div class="hero-text">
+            <p class="hero-kicker">Classical Garden</p>
+            <h1 class="hero-title">Humble Administrator's Garden</h1>
+            <p class="hero-subtitle hero-subtitle--serif">拙政园</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container container--narrow">
+        <h2 class="intro-title fade-in">
+          The largest and most renowned of Suzhou's classical gardens
+        </h2>
+
+        <div class="intro-block fade-in">
+          <p class="intro-block-label">History</p>
+          <p class="intro-text">
+            Built in 1509 during the Ming Dynasty by Wang Xianchen, a dismissed
+            imperial envoy. The name derives from a line in a classical text:
+            "To plant trees and vegetables and sell them… this is the politics of
+            a humble man."
+          </p>
+        </div>
+
+        <div class="intro-block fade-in">
+          <p class="intro-block-label">Design Philosophy</p>
+          <p class="intro-text">
+            The garden embodies the Taoist principle of harmony between humans and
+            nature. Water occupies one-third of the space, creating a sense of
+            openness rare in Suzhou gardens. The design emphasizes borrowed
+            scenery and changing perspectives.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gd-section">
+      <div class="gd-grid container">
+        <div class="gd-img-wrap fade-in">
+          <img
+            src="Images/zhuozhengyuan/zhuozhengyuan1.jpeg"
+            alt="View of the Eastern Garden"
+            class="gd-img"
+          >
+        </div>
+        <div class="gd-text-wrap fade-in">
+          <h3 class="gd-title">Eastern Garden</h3>
+          <p class="gd-text">
+            Originally a separate property, the Eastern Garden features densely
+            planted vegetation and intimate courtyards. The Hall of Celestial
+            Spring showcases the interplay of architecture and natural elements.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gd-section section--white">
+      <div class="gd-grid gd-grid--reverse container">
+        <div class="gd-img-wrap fade-in">
+          <img
+            src="Images/zhuozhengyuan/zhuozhengyuan2.jpeg"
+            alt="View of the Central Garden"
+            class="gd-img"
+          >
+        </div>
+        <div class="gd-text-wrap fade-in">
+          <h3 class="gd-title">Central Garden</h3>
+          <p class="gd-text">
+            The heart of the garden centers on a large pond. Pavilions, bridges,
+            and covered walkways frame ever-changing views. Each season brings new
+            beauty—lotus in summer, falling leaves in autumn.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gd-section">
+      <div class="gd-grid container">
+        <div class="gd-img-wrap fade-in">
+          <img
+            src="Images/zhuozhengyuan/zhuozhengyuan3.jpeg"
+            alt="View of the Western Garden"
+            class="gd-img"
+          >
+        </div>
+        <div class="gd-text-wrap fade-in">
+          <h3 class="gd-title">Western Garden</h3>
+          <p class="gd-text">
+            Added in the late Qing Dynasty, this section creates a more intimate
+            atmosphere with smaller ponds and rocky landscapes. The 36 Pairs of
+            Mandarin Ducks Hall exemplifies refined Ming architecture.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="garden-photo-gallery.html" class="footer-link">Gallery</a>
+          <a href="food-gallery.html" class="footer-link">Food</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Preserving the beauty and heritage of Suzhou classical gardens</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
